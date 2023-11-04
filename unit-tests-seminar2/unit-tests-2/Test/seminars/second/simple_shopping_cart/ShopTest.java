@@ -243,10 +243,17 @@ class ShopTest {
      * <br> 3. Установлен таймаут на выполнение теста 70 Миллисекунд (unit = TimeUnit.MILLISECONDS)
      * <br> 4. После проверки работоспособности теста, его нужно выключить
      */
-    @Test
+
+    // @Disabled
     @DisplayName("Advanced test for calculating TotalPrice")
+    @RepeatedTest(10)
+    @Timeout(value = 70, unit = TimeUnit.MILLISECONDS)
+    @Disabled
     void testSUM() {
-
+        // Arrange (Подготовка)
+        // Act (Выполнение)
+        // cart.addProductToCartByID(2); // 250
+        // Assert (Проверка утверждения)
+        //assertThat(cart.getTotalPrice()).isEqualTo(250.0);
     }
-
 }
