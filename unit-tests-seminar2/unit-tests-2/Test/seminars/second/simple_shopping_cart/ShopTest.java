@@ -244,7 +244,6 @@ class ShopTest {
      * <br> 4. После проверки работоспособности теста, его нужно выключить
      */
 
-    // @Disabled
     @DisplayName("Advanced test for calculating TotalPrice")
     @RepeatedTest(10)
     @Timeout(value = 70, unit = TimeUnit.MILLISECONDS)
