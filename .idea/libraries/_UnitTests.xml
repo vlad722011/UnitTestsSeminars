@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="курс UnitTests">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/.." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../UnitTestsHomeworks/UnitTestsHomeworks/homework1/unit-tests-1/unit-tests-1/src" />
+      <root url="file://$PROJECT_DIR$/../UnitTests_Lection/Unit_Tests_Lections/LectionOne/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../UnitTests_Lection/Unit_Tests_Lections/Unit_Test_Lections/LectionOne/src/main/java" />
+      <root url="file://$PROJECT_DIR$/unit-tests-1/unit-tests-1/src" />
+    </SOURCES>
+  </library>
+</component>
