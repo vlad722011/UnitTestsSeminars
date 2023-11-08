@@ -7,8 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/Test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar1/unit-tests-1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3 (è«ñ ßÑ¼¿¡áαá)/Test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3 (è«ñ ßÑ¼¿¡áαá)/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
