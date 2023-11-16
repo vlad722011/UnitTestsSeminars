@@ -1,0 +1,6 @@
+package hotel;
+
+
+class BookingServiceTest {
+
+}

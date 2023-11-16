@@ -9,44 +9,54 @@
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar1/unit-tests-1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3/Test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar4/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/libs/junit-jupiter-api-5.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/assertj-core-3.23.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/byte-buddy-1.12.22.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/byte-buddy-agent-1.12.22.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/junit-jupiter-api-5.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/junit-jupiter-params-5.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/junit-platform-commons-1.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/mockito-core-5.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/libs/objenesis-3.3.jar!/" />
+          <root url="file://$MODULE_DIR$" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/unit-tests-seminar1/unit-tests-1/src" />
+          <root url="file://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/Test" />
+          <root url="file://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/src" />
+          <root url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3/Test" />
+          <root url="file://$MODULE_DIR$/unit-tests-seminar3/unit-tests-3/src" />
+          <root url="file://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/Test" />
+          <root url="file://$MODULE_DIR$/unit-tests-seminar4/unit-tests-4/src" />
+        </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
+    <orderEntry type="module-library">
+      <library name="JUnit5.8.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/libs/junit-jupiter-params-5.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/junit-jupiter-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/junit-jupiter-api-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/opentest4j-1.2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/junit-platform-commons-1.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/apiguardian-api-1.1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/junit-jupiter-params-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/junit-jupiter-engine-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/junit-platform-engine-1.8.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/libs/assertj-core-3.23.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/unit-tests-seminar2/unit-tests-2/libs/junit-platform-commons-1.9.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: org.assertj:assertj-core:3.24.2" level="project" />
   </component>
 </module>
